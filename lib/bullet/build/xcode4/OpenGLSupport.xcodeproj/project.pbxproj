@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F965EC50CE73FA718E90508 /* DemoApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25F63B637A436B29612377B1 /* DemoApplication.cpp */; };
+		160C76F21D161358092B7181 /* GLDebugDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53B541EB61BC041B1FC948D4 /* GLDebugDrawer.cpp */; };
+		0BC830485C5C37F20A9B63DD /* GLDebugFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A98320B11CC295E67651C7D /* GLDebugFont.cpp */; };
+		5B892EB24FDC0F8A60CC1A09 /* GL_DialogDynamicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24184FFC570C599834401170 /* GL_DialogDynamicsWorld.cpp */; };
+		348C00AD017A020818124A9E /* GL_DialogWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 525E387D25D54AE90ED62FF5 /* GL_DialogWindow.cpp */; };
+		485157301E3F79BB672A14AA /* GL_ShapeDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A03C6B2F27448242692950 /* GL_ShapeDrawer.cpp */; };
+		43B2074B7FFB45F44E8446F5 /* GL_Simplex1to4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09E46FA8089B07301C4844B2 /* GL_Simplex1to4.cpp */; };
+		7010324E5BFE16C569EB4983 /* GlutDemoApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76CC0AC85C2115510BE03C78 /* GlutDemoApplication.cpp */; };
+		3EF972F96B27044212AF54E1 /* GlutStuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74004E076E9B207C695C32FD /* GlutStuff.cpp */; };
+		26AD672E23C10CBA14211004 /* RenderTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D65D12687F7C3E594D6D00 /* RenderTexture.cpp */; };
+		4FD46AE037183A950E470A15 /* Win32AppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290243195D8F1414355F1D41 /* Win32AppMain.cpp */; };
+		4AD057491B4367DC294917C4 /* Win32DemoApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22C60234293D16D8719104DD /* Win32DemoApplication.cpp */; };
+		181518247E7353E04AA2648C /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EF649C563AB048A2D5544A4 /* stb_image.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41B433F2662B15D36E486729 /* CommandLineArguments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CommandLineArguments.h"; path = "../../Demos/OpenGL/CommandLineArguments.h"; sourceTree = "<group>"; };
+		6C826ADA4D932E8F63152B11 /* DebugCastResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DebugCastResult.h"; path = "../../Demos/OpenGL/DebugCastResult.h"; sourceTree = "<group>"; };
+		25F63B637A436B29612377B1 /* DemoApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "DemoApplication.cpp"; path = "../../Demos/OpenGL/DemoApplication.cpp"; sourceTree = "<group>"; };
+		5C576BC171D245A64AD50F5D /* DemoApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DemoApplication.h"; path = "../../Demos/OpenGL/DemoApplication.h"; sourceTree = "<group>"; };
+		53B541EB61BC041B1FC948D4 /* GLDebugDrawer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GLDebugDrawer.cpp"; path = "../../Demos/OpenGL/GLDebugDrawer.cpp"; sourceTree = "<group>"; };
+		71EA5CC65E4802782FC810F9 /* GLDebugDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GLDebugDrawer.h"; path = "../../Demos/OpenGL/GLDebugDrawer.h"; sourceTree = "<group>"; };
+		0A98320B11CC295E67651C7D /* GLDebugFont.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GLDebugFont.cpp"; path = "../../Demos/OpenGL/GLDebugFont.cpp"; sourceTree = "<group>"; };
+		715E66977AA24D4A54A80A17 /* GLDebugFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GLDebugFont.h"; path = "../../Demos/OpenGL/GLDebugFont.h"; sourceTree = "<group>"; };
+		24184FFC570C599834401170 /* GL_DialogDynamicsWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GL_DialogDynamicsWorld.cpp"; path = "../../Demos/OpenGL/GL_DialogDynamicsWorld.cpp"; sourceTree = "<group>"; };
+		4A047B9057B803196345084E /* GL_DialogDynamicsWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GL_DialogDynamicsWorld.h"; path = "../../Demos/OpenGL/GL_DialogDynamicsWorld.h"; sourceTree = "<group>"; };
+		525E387D25D54AE90ED62FF5 /* GL_DialogWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GL_DialogWindow.cpp"; path = "../../Demos/OpenGL/GL_DialogWindow.cpp"; sourceTree = "<group>"; };
+		58FF556D7604212A7DA647FC /* GL_DialogWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GL_DialogWindow.h"; path = "../../Demos/OpenGL/GL_DialogWindow.h"; sourceTree = "<group>"; };
+		18A03C6B2F27448242692950 /* GL_ShapeDrawer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GL_ShapeDrawer.cpp"; path = "../../Demos/OpenGL/GL_ShapeDrawer.cpp"; sourceTree = "<group>"; };
+		329F251872A41BA70C5A0438 /* GL_ShapeDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GL_ShapeDrawer.h"; path = "../../Demos/OpenGL/GL_ShapeDrawer.h"; sourceTree = "<group>"; };
+		09E46FA8089B07301C4844B2 /* GL_Simplex1to4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GL_Simplex1to4.cpp"; path = "../../Demos/OpenGL/GL_Simplex1to4.cpp"; sourceTree = "<group>"; };
+		12B332D2121E0FEC5E45342D /* GL_Simplex1to4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GL_Simplex1to4.h"; path = "../../Demos/OpenGL/GL_Simplex1to4.h"; sourceTree = "<group>"; };
+		76CC0AC85C2115510BE03C78 /* GlutDemoApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GlutDemoApplication.cpp"; path = "../../Demos/OpenGL/GlutDemoApplication.cpp"; sourceTree = "<group>"; };
+		57633D552095570A56D219E4 /* GlutDemoApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GlutDemoApplication.h"; path = "../../Demos/OpenGL/GlutDemoApplication.h"; sourceTree = "<group>"; };
+		74004E076E9B207C695C32FD /* GlutStuff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GlutStuff.cpp"; path = "../../Demos/OpenGL/GlutStuff.cpp"; sourceTree = "<group>"; };
+		09BE42AB21142DF15EA332C2 /* GlutStuff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GlutStuff.h"; path = "../../Demos/OpenGL/GlutStuff.h"; sourceTree = "<group>"; };
+		75D65D12687F7C3E594D6D00 /* RenderTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "RenderTexture.cpp"; path = "../../Demos/OpenGL/RenderTexture.cpp"; sourceTree = "<group>"; };
+		363B0A386F71020D50CE1731 /* RenderTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RenderTexture.h"; path = "../../Demos/OpenGL/RenderTexture.h"; sourceTree = "<group>"; };
+		290243195D8F1414355F1D41 /* Win32AppMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Win32AppMain.cpp"; path = "../../Demos/OpenGL/Win32AppMain.cpp"; sourceTree = "<group>"; };
+		22C60234293D16D8719104DD /* Win32DemoApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Win32DemoApplication.cpp"; path = "../../Demos/OpenGL/Win32DemoApplication.cpp"; sourceTree = "<group>"; };
+		6269795414CB37F40B482437 /* Win32DemoApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Win32DemoApplication.h"; path = "../../Demos/OpenGL/Win32DemoApplication.h"; sourceTree = "<group>"; };
+		2EF649C563AB048A2D5544A4 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "stb_image.cpp"; path = "../../Demos/OpenGL/stb_image.cpp"; sourceTree = "<group>"; };
+		52FB1E3009F276197B416925 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "stb_image.h"; path = "../../Demos/OpenGL/stb_image.h"; sourceTree = "<group>"; };
+		6D0255371EC2105C2B004C20 /* libOpenGLSupport_xcode4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libOpenGLSupport_xcode4.a"; path = "libOpenGLSupport_xcode4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D8576A2923504302F94FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2D77B673DD614C6EF40538 /* OpenGLSupport */ = {
+			isa = PBXGroup;
+			children = (
+				21D41BC87FBF05594F1D225E /* Demos */,
+				7DA9162A30886F6243957AB5 /* Products */,
+			);
+			name = "OpenGLSupport";
+			sourceTree = "<group>";
+		};
+		21D41BC87FBF05594F1D225E /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				79577F4C7E437DBF1DE8288B /* OpenGL */,
+			);
+			name = "Demos";
+			sourceTree = "<group>";
+		};
+		79577F4C7E437DBF1DE8288B /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				41B433F2662B15D36E486729 /* CommandLineArguments.h */,
+				6C826ADA4D932E8F63152B11 /* DebugCastResult.h */,
+				25F63B637A436B29612377B1 /* DemoApplication.cpp */,
+				5C576BC171D245A64AD50F5D /* DemoApplication.h */,
+				53B541EB61BC041B1FC948D4 /* GLDebugDrawer.cpp */,
+				71EA5CC65E4802782FC810F9 /* GLDebugDrawer.h */,
+				0A98320B11CC295E67651C7D /* GLDebugFont.cpp */,
+				715E66977AA24D4A54A80A17 /* GLDebugFont.h */,
+				24184FFC570C599834401170 /* GL_DialogDynamicsWorld.cpp */,
+				4A047B9057B803196345084E /* GL_DialogDynamicsWorld.h */,
+				525E387D25D54AE90ED62FF5 /* GL_DialogWindow.cpp */,
+				58FF556D7604212A7DA647FC /* GL_DialogWindow.h */,
+				18A03C6B2F27448242692950 /* GL_ShapeDrawer.cpp */,
+				329F251872A41BA70C5A0438 /* GL_ShapeDrawer.h */,
+				09E46FA8089B07301C4844B2 /* GL_Simplex1to4.cpp */,
+				12B332D2121E0FEC5E45342D /* GL_Simplex1to4.h */,
+				76CC0AC85C2115510BE03C78 /* GlutDemoApplication.cpp */,
+				57633D552095570A56D219E4 /* GlutDemoApplication.h */,
+				74004E076E9B207C695C32FD /* GlutStuff.cpp */,
+				09BE42AB21142DF15EA332C2 /* GlutStuff.h */,
+				75D65D12687F7C3E594D6D00 /* RenderTexture.cpp */,
+				363B0A386F71020D50CE1731 /* RenderTexture.h */,
+				290243195D8F1414355F1D41 /* Win32AppMain.cpp */,
+				22C60234293D16D8719104DD /* Win32DemoApplication.cpp */,
+				6269795414CB37F40B482437 /* Win32DemoApplication.h */,
+				2EF649C563AB048A2D5544A4 /* stb_image.cpp */,
+				52FB1E3009F276197B416925 /* stb_image.h */,
+			);
+			name = "OpenGL";
+			sourceTree = "<group>";
+		};
+		7DA9162A30886F6243957AB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D0255371EC2105C2B004C20 /* libOpenGLSupport_xcode4.a */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D186EDA524952A160AB061C /* OpenGLSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153B5BB15FDD5B2D17B85501 /* Build configuration list for PBXNativeTarget "OpenGLSupport" */;
+			buildPhases = (
+				395050EC648431D40A6F3DFB /* Resources */,
+				3DDD7AA90A1374E368E40D90 /* Sources */,
+				12D8576A2923504302F94FA3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLSupport";
+			productName = "OpenGLSupport";
+			productReference = 6D0255371EC2105C2B004C20 /* libOpenGLSupport_xcode4.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "OpenGLSupport" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 4E2D77B673DD614C6EF40538 /* OpenGLSupport */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D186EDA524952A160AB061C /* libOpenGLSupport_xcode4.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		395050EC648431D40A6F3DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DDD7AA90A1374E368E40D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F965EC50CE73FA718E90508 /* DemoApplication.cpp in Sources */,
+				160C76F21D161358092B7181 /* GLDebugDrawer.cpp in Sources */,
+				0BC830485C5C37F20A9B63DD /* GLDebugFont.cpp in Sources */,
+				5B892EB24FDC0F8A60CC1A09 /* GL_DialogDynamicsWorld.cpp in Sources */,
+				348C00AD017A020818124A9E /* GL_DialogWindow.cpp in Sources */,
+				485157301E3F79BB672A14AA /* GL_ShapeDrawer.cpp in Sources */,
+				43B2074B7FFB45F44E8446F5 /* GL_Simplex1to4.cpp in Sources */,
+				7010324E5BFE16C569EB4983 /* GlutDemoApplication.cpp in Sources */,
+				3EF972F96B27044212AF54E1 /* GlutStuff.cpp in Sources */,
+				26AD672E23C10CBA14211004 /* RenderTexture.cpp in Sources */,
+				4FD46AE037183A950E470A15 /* Win32AppMain.cpp in Sources */,
+				4AD057491B4367DC294917C4 /* Win32DemoApplication.cpp in Sources */,
+				181518247E7353E04AA2648C /* stb_image.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5662753027DE02B3396205D9 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../lib";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "OpenGLSupport_xcode4";
+			};
+			name = "Release Native 32-bit";
+		};
+		34F63D411BF466C076996A32 /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../lib";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "OpenGLSupport_xcode4_x64_release";
+			};
+			name = "Release Native 64-bit";
+		};
+		39E860AC7761311A3A9C03FA /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../lib";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "OpenGLSupport_xcode4_debug";
+			};
+			name = "Debug Native 32-bit";
+		};
+		7A545930153A22CE1F3F7449 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../lib";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "OpenGLSupport_xcode4_x64_debug";
+			};
+			name = "Debug Native 64-bit";
+		};
+		6DE033A87A6B43187B88543E /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "i386";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Demos/OpenGL",
+					"../../src",
+				);
+				OBJROOT = "obj/x32/Release/OpenGLSupport";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../lib";
+			};
+			name = "Release Native 32-bit";
+		};
+		1EDB51F00799061505051460 /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Demos/OpenGL",
+					"../../src",
+				);
+				OBJROOT = "obj/x64/Release/OpenGLSupport";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../lib";
+			};
+			name = "Release Native 64-bit";
+		};
+		53335D45063301EF2C7C2C9D /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "i386";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Demos/OpenGL",
+					"../../src",
+				);
+				OBJROOT = "obj/x32/Debug/OpenGLSupport";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../lib";
+			};
+			name = "Debug Native 32-bit";
+		};
+		23B378CC50D2140D63016E8A /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../Demos/OpenGL",
+					"../../src",
+				);
+				OBJROOT = "obj/x64/Debug/OpenGLSupport";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../lib";
+			};
+			name = "Debug Native 64-bit";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153B5BB15FDD5B2D17B85501 /* Build configuration list for PBXNativeTarget "libOpenGLSupport_xcode4.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5662753027DE02B3396205D9 /* Release Native 32-bit */,
+				34F63D411BF466C076996A32 /* Release Native 64-bit */,
+				39E860AC7761311A3A9C03FA /* Debug Native 32-bit */,
+				7A545930153A22CE1F3F7449 /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "OpenGLSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE033A87A6B43187B88543E /* Release Native 32-bit */,
+				1EDB51F00799061505051460 /* Release Native 64-bit */,
+				53335D45063301EF2C7C2C9D /* Debug Native 32-bit */,
+				23B378CC50D2140D63016E8A /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

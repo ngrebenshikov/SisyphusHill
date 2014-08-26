@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              E47B37DBFAF84C608436259A /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E16C30BE5C3343E58D02A2BC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            4B13CED1DE0B433B86B5A009 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            E4B088A917C847E0B5C3A702 /* PBXTargetDependency */,
+                            A428673C60A44623B7281DC7 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5454FB1C02024609AD0F39EB /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 877F1489900A47C699B96E40 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            DCC935F6378D400FBB6E4349 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+649D281CF2F74745A53E4282 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6EEE5AF960654FDF97AC02D1 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+9AD5F95817A343B082D03C27 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/HelloWorld.cpp */ = {isa = PBXBuildFile; fileRef = 5A50439AB850499DA34FACD3 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/HelloWorld.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              145F76D963EF431BB90BC669 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              BF74E78C7F7C4E7C87D62A70 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              5A0C4AD5FA4144E3B09B5443 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              35786BD3F9F84CF19E92D5F4 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              D1B56974208A481AB1F77272 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              0F3A56FDCA3347C984B27393 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3FC78734497F4E9E988F762F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5454FB1C02024609AD0F39EB;
+                     remoteInfo = ZERO_CHECK;
+              };
+              7588713BDE1C4CBC90870133 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3FC78734497F4E9E988F762F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B9CF94DF20B54DDCBA581AF5;
+                     remoteInfo = AppHelloWorld;
+              };
+              18217849F06544C0B9AB86DE /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3FC78734497F4E9E988F762F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5454FB1C02024609AD0F39EB;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+F6694E72D2CB481C879708D6 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+6EEE5AF960654FDF97AC02D1 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "HelloWorld/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5A50439AB850499DA34FACD3 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/HelloWorld.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "HelloWorld.cpp"; path = "HelloWorld/HelloWorld.cpp"; sourceTree = SOURCE_ROOT; };
+5E22DFA9CC174A3E931BE54B /* AppHelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = AppHelloWorld; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              7C40F8778A604447A1DEB8E2  = {
+                     isa = PBXGroup;
+                     children = (
+                            299070AC1BA840F78B85C3B3 /* Sources */,
+                            B818CDA2145B4489A00F9010 /* Resources */,
+                            401B8B18600C409195448E0C /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              299070AC1BA840F78B85C3B3 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            32EA479198BC4177BD74D72B /* ALL_BUILD */,
+                            C96575A310A34CA290E99B4C /* ZERO_CHECK */,
+                            8CE2C797E87C40E7ACB9F2AF /* AppHelloWorld */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              B818CDA2145B4489A00F9010 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              32EA479198BC4177BD74D72B /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            07FA7D3E246F4ABD9809D37C /* CMake Rules */,
+                            F6694E72D2CB481C879708D6 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              07FA7D3E246F4ABD9809D37C /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C96575A310A34CA290E99B4C /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F86681492A884AEA8A67C1EF /* CMake Rules */,
+                            F6694E72D2CB481C879708D6 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              F86681492A884AEA8A67C1EF /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              8CE2C797E87C40E7ACB9F2AF /* AppHelloWorld */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7411005EC16D4AD99B1E1349 /* Source Files */,
+                            6EEE5AF960654FDF97AC02D1 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/CMakeLists.txt */,
+                     );
+                     name = AppHelloWorld;
+                     sourceTree = "<group>";
+              };
+              7411005EC16D4AD99B1E1349 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5A50439AB850499DA34FACD3 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/HelloWorld.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              401B8B18600C409195448E0C /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5E22DFA9CC174A3E931BE54B /* AppHelloWorld */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              B9CF94DF20B54DDCBA581AF5 /* AppHelloWorld */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 1BEBB4906E614269B904CF79 /* Build configuration list for PBXNativeTarget "AppHelloWorld" */;
+                     buildPhases = (
+                            31C16D6050BE4271AA1CF17F /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            72F69DEA7D654B5BA38EA999 /* PBXTargetDependency */,
+                     );
+                     name = AppHelloWorld;
+                     productName = AppHelloWorld;
+                     productReference = 5E22DFA9CC174A3E931BE54B /* AppHelloWorld */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              3FC78734497F4E9E988F762F /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 45EFBC9723A34C888815A737 /* Build configuration list for PBXProject  "Project" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            BF74E78C7F7C4E7C87D62A70 /* Debug */,
+                            5A0C4AD5FA4144E3B09B5443 /* Release */,
+                            35786BD3F9F84CF19E92D5F4 /* MinSizeRel */,
+                            D1B56974208A481AB1F77272 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 7C40F8778A604447A1DEB8E2;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            E47B37DBFAF84C608436259A /* ALL_BUILD */,
+                            5454FB1C02024609AD0F39EB /* ZERO_CHECK */,
+                            B9CF94DF20B54DDCBA581AF5 /* AppHelloWorld */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              366C1EFC1F4D415D9991351B /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              4B13CED1DE0B433B86B5A009 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ngrebenshikov/pyramid/lib/bullet/Demos -f /Users/ngrebenshikov/pyramid/lib/bullet/Demos/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7B0A67CA43CC48158CABD88B /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              DCC935F6378D400FBB6E4349 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ngrebenshikov/pyramid/lib/bullet/Demos -f /Users/ngrebenshikov/pyramid/lib/bullet/Demos/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              31C16D6050BE4271AA1CF17F /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            9AD5F95817A343B082D03C27 /* /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/HelloWorld.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              E4B088A917C847E0B5C3A702 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5454FB1C02024609AD0F39EB /* ZERO_CHECK */;
+                     targetProxy = 0F3A56FDCA3347C984B27393 /* PBXContainerItemProxy */;
+              };
+              A428673C60A44623B7281DC7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B9CF94DF20B54DDCBA581AF5 /* AppHelloWorld */;
+                     targetProxy = 7588713BDE1C4CBC90870133 /* PBXContainerItemProxy */;
+              };
+              72F69DEA7D654B5BA38EA999 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5454FB1C02024609AD0F39EB /* ZERO_CHECK */;
+                     targetProxy = 18217849F06544C0B9AB86DE /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              4195082D6C6C4F9BB1187F83 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/build;
+                     };
+                     name = Debug;
+              };
+              16E3044929594DE7B066B9BF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/build;
+                     };
+                     name = Release;
+              };
+              36FDC54ED2CB404F95D3CD3D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/build;
+                     };
+                     name = MinSizeRel;
+              };
+              6C2F0E7DD0484925AC4B55AC /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              EC8ACA052EF74A91BF504EB5 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A3C8AB0C43BE49A78AA0CB7A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5F04870D8B044E13B9C9D80C /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              59B0223E37C24C55ABCBB833 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              8313830B0C334DDFAD45CC0B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              94ED220AFB6C4516B96B7A63 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              93DD9D06BCF443D9B7EDDA55 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              96E33E26102E4144972335A4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              95EAF45F470E48E889E681A8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lBulletDynamics -lBulletCollision -lLinearMath";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AppHelloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6F8383D139864EC7A72470EB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lBulletDynamics -lBulletCollision -lLinearMath";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AppHelloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              196D4F77960A4F67AB8F4A44 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lBulletDynamics -lBulletCollision -lLinearMath";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AppHelloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              309C542F26F74613807EFA80 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lBulletDynamics -lBulletCollision -lLinearMath";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AppHelloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              45EFBC9723A34C888815A737 /* Build configuration list for PBXProject  "Project" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            4195082D6C6C4F9BB1187F83 /* Debug */,
+                            16E3044929594DE7B066B9BF /* Release */,
+                            36FDC54ED2CB404F95D3CD3D /* MinSizeRel */,
+                            6C2F0E7DD0484925AC4B55AC /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E16C30BE5C3343E58D02A2BC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            EC8ACA052EF74A91BF504EB5 /* Debug */,
+                            A3C8AB0C43BE49A78AA0CB7A /* Release */,
+                            5F04870D8B044E13B9C9D80C /* MinSizeRel */,
+                            59B0223E37C24C55ABCBB833 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              877F1489900A47C699B96E40 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8313830B0C334DDFAD45CC0B /* Debug */,
+                            94ED220AFB6C4516B96B7A63 /* Release */,
+                            93DD9D06BCF443D9B7EDDA55 /* MinSizeRel */,
+                            96E33E26102E4144972335A4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1BEBB4906E614269B904CF79 /* Build configuration list for PBXNativeTarget "AppHelloWorld" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            95EAF45F470E48E889E681A8 /* Debug */,
+                            6F8383D139864EC7A72470EB /* Release */,
+                            196D4F77960A4F67AB8F4A44 /* MinSizeRel */,
+                            309C542F26F74613807EFA80 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 3FC78734497F4E9E988F762F;
+}

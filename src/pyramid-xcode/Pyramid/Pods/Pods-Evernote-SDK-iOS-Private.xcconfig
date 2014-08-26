@@ -1,0 +1,5 @@
+#include "Pods-Evernote-SDK-iOS.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Evernote-SDK-iOS" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Bolts" "${PODS_ROOT}/Headers/Dropbox-iOS-SDK" "${PODS_ROOT}/Headers/Evernote-SDK-iOS" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/FlatUIKit" "${PODS_ROOT}/Headers/Loopy" "${PODS_ROOT}/Headers/PKMultipartInputStream" "${PODS_ROOT}/Headers/Pinterest-iOS" "${PODS_ROOT}/Headers/PocketAPI" "${PODS_ROOT}/Headers/SAMTextView" "${PODS_ROOT}/Headers/SDWebImage" "${PODS_ROOT}/Headers/SSKeychain" "${PODS_ROOT}/Headers/SZBlocksKit" "${PODS_ROOT}/Headers/SZJSONKit" "${PODS_ROOT}/Headers/SZOAuthConsumer" "${PODS_ROOT}/Headers/SZOAuthConsumer/OAuthConsumer" "${PODS_ROOT}/Headers/ShareKit" "${PODS_ROOT}/Headers/Socialize" "${PODS_ROOT}/Headers/UIActivityIndicator-for-SDWebImage" ${PODS_EVERNOTE_SDK_IOS_HEADER_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_EVERNOTE_SDK_IOS_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

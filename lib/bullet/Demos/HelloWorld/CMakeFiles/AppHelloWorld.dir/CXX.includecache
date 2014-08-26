@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/HelloWorld.cpp
+btBulletDynamicsCommon.h
+/Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/btBulletDynamicsCommon.h
+stdio.h
+-
+

@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD6675238C660EF24306B91 /* ConcaveRaycastDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A667666F20419F409727F9 /* ConcaveRaycastDemo.cpp */; };
+		1B9C442154FF33FE0753673E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 121D36425ADC3B732EC468BA /* main.cpp */; };
+		27BD27935DA649E901BC00BC /* libOpenGLSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16724B4211422A9A6E0C7DF2 /* libOpenGLSupport.a */; };
+		711D5C7E5E61353A31E355F3 /* libBulletDynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2A5EA0037C45827FAF4700 /* libBulletDynamics.a */; };
+		394843573E0C074C25191399 /* libBulletCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04815CE81F652AE5410C1D74 /* libBulletCollision.a */; };
+		732D327750CF4F2C53735FF4 /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7F5B6708247D78688D0C85 /* libLinearMath.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0361619113E94E8D324E52C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D663A90EF121E3643C5A99 /* OpenGLSupport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6D0255371EC2105C2B004C20;
+			remoteInfo = "libOpenGLSupport_xcode4.a";
+		};
+		7308405F4469587E6AF732D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D663A90EF121E3643C5A99 /* OpenGLSupport.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D186EDA524952A160AB061C;
+			remoteInfo = "libOpenGLSupport_xcode4.a";
+		};
+		02486DC3556D7376498F56A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1E59300B917E06594B4D4D /* BulletDynamics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16581A1242FD309F35AD0380;
+			remoteInfo = "libBulletDynamics_xcode4.a";
+		};
+		0B2B4902581627BF09467A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1E59300B917E06594B4D4D /* BulletDynamics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F76EAE706D3C360B491499;
+			remoteInfo = "libBulletDynamics_xcode4.a";
+		};
+		31CA012332FE531D2ABE4366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 055E7EDD0D5A46441BF233F8 /* BulletCollision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DCA1EC1126F41427DDD491A;
+			remoteInfo = "libBulletCollision_xcode4.a";
+		};
+		5E2573034F2E6E3835646AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 055E7EDD0D5A46441BF233F8 /* BulletCollision.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 72554C74797C5F5762DC7369;
+			remoteInfo = "libBulletCollision_xcode4.a";
+		};
+		7D3078CA4F6A61A53A5D5DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E9000D5A3D06E418875ED9 /* LinearMath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C8F4A0F26DF0ACF322E1915;
+			remoteInfo = "libLinearMath_xcode4.a";
+		};
+		339070F1755D348660760B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E9000D5A3D06E418875ED9 /* LinearMath.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB56A1131631A0B79263363;
+			remoteInfo = "libLinearMath_xcode4.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A667666F20419F409727F9 /* ConcaveRaycastDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "ConcaveRaycastDemo.cpp"; path = "../../Demos/ConcaveRaycastDemo/ConcaveRaycastDemo.cpp"; sourceTree = "<group>"; };
+		274266354A260CE74F940F45 /* ConcaveRaycastDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ConcaveRaycastDemo.h"; path = "../../Demos/ConcaveRaycastDemo/ConcaveRaycastDemo.h"; sourceTree = "<group>"; };
+		121D36425ADC3B732EC468BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../Demos/ConcaveRaycastDemo/main.cpp"; sourceTree = "<group>"; };
+		4D641A0171B46562331949E5 /* App_ConcaveRaycastDemo_xcode4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "App_ConcaveRaycastDemo_xcode4"; path = "App_ConcaveRaycastDemo_xcode4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D663A90EF121E3643C5A99 /* OpenGLSupport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "OpenGLSupport.xcodeproj"; path = "OpenGLSupport.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		4F1E59300B917E06594B4D4D /* BulletDynamics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletDynamics.xcodeproj"; path = "BulletDynamics.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		055E7EDD0D5A46441BF233F8 /* BulletCollision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletCollision.xcodeproj"; path = "BulletCollision.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		45E9000D5A3D06E418875ED9 /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093C69C10E937EEA46437916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BD27935DA649E901BC00BC /* libOpenGLSupport.a in Frameworks */,
+				711D5C7E5E61353A31E355F3 /* libBulletDynamics.a in Frameworks */,
+				394843573E0C074C25191399 /* libBulletCollision.a in Frameworks */,
+				732D327750CF4F2C53735FF4 /* libLinearMath.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF74A68228751743DD039CE /* App_ConcaveRaycastDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D22C4185512A525FE6979 /* Demos */,
+				329424AC428B4C7E76914C44 /* Products */,
+				1F356A1C0C7B7A4158163771 /* Projects */,
+			);
+			name = "App_ConcaveRaycastDemo";
+			sourceTree = "<group>";
+		};
+		3A4D22C4185512A525FE6979 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				10BE451774D6374B344E0DD0 /* ConcaveRaycastDemo */,
+			);
+			name = "Demos";
+			sourceTree = "<group>";
+		};
+		10BE451774D6374B344E0DD0 /* ConcaveRaycastDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75A667666F20419F409727F9 /* ConcaveRaycastDemo.cpp */,
+				274266354A260CE74F940F45 /* ConcaveRaycastDemo.h */,
+				121D36425ADC3B732EC468BA /* main.cpp */,
+			);
+			name = "ConcaveRaycastDemo";
+			sourceTree = "<group>";
+		};
+		329424AC428B4C7E76914C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D641A0171B46562331949E5 /* App_ConcaveRaycastDemo_xcode4 */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1F356A1C0C7B7A4158163771 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				00D663A90EF121E3643C5A99 /* OpenGLSupport.xcodeproj */,
+				4F1E59300B917E06594B4D4D /* BulletDynamics.xcodeproj */,
+				055E7EDD0D5A46441BF233F8 /* BulletCollision.xcodeproj */,
+				45E9000D5A3D06E418875ED9 /* LinearMath.xcodeproj */,
+			);
+			name = "Projects";
+			sourceTree = "<group>";
+		};
+		1BCC249F73A22F0F317852BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16724B4211422A9A6E0C7DF2 /* libOpenGLSupport.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F27618503E1F8D089B03CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2A5EA0037C45827FAF4700 /* libBulletDynamics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EEB4FA6526F359E513C560E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04815CE81F652AE5410C1D74 /* libBulletCollision.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		081B3E114ED53EC64D1D356C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7F5B6708247D78688D0C85 /* libLinearMath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3B5014122B54C77E0B3959 /* App_ConcaveRaycastDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD718546D9B0A764AC17585 /* Build configuration list for PBXNativeTarget "App_ConcaveRaycastDemo" */;
+			buildPhases = (
+				08E446E10C99360F14A23A08 /* Resources */,
+				7C0800C607EC26FB5D47662A /* Sources */,
+				093C69C10E937EEA46437916 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390D3C6C0BE526DE3AD31373 /* PBXTargetDependency */,
+				7E456F1010B64E6F5C8B2F9A /* PBXTargetDependency */,
+				366355225F2452EF61E64DF6 /* PBXTargetDependency */,
+				31144DB80654183F5B0E1F7E /* PBXTargetDependency */,
+			);
+			name = "App_ConcaveRaycastDemo";
+			productInstallPath = "$(HOME)/bin";
+			productName = "App_ConcaveRaycastDemo";
+			productReference = 4D641A0171B46562331949E5 /* App_ConcaveRaycastDemo_xcode4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_ConcaveRaycastDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 1CF74A68228751743DD039CE /* App_ConcaveRaycastDemo */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BCC249F73A22F0F317852BF /* Products */;
+					ProjectRef = 00D663A90EF121E3643C5A99 /* OpenGLSupport.xcodeproj */;
+				},
+				{
+					ProductGroup = 13F27618503E1F8D089B03CE /* Products */;
+					ProjectRef = 4F1E59300B917E06594B4D4D /* BulletDynamics.xcodeproj */;
+				},
+				{
+					ProductGroup = 2EEB4FA6526F359E513C560E /* Products */;
+					ProjectRef = 055E7EDD0D5A46441BF233F8 /* BulletCollision.xcodeproj */;
+				},
+				{
+					ProductGroup = 081B3E114ED53EC64D1D356C /* Products */;
+					ProjectRef = 45E9000D5A3D06E418875ED9 /* LinearMath.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5F3B5014122B54C77E0B3959 /* App_ConcaveRaycastDemo_xcode4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		16724B4211422A9A6E0C7DF2 /* libOpenGLSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libOpenGLSupport.a";
+			remoteRef = 0361619113E94E8D324E52C6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B2A5EA0037C45827FAF4700 /* libBulletDynamics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libBulletDynamics.a";
+			remoteRef = 02486DC3556D7376498F56A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04815CE81F652AE5410C1D74 /* libBulletCollision.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libBulletCollision.a";
+			remoteRef = 31CA012332FE531D2ABE4366 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C7F5B6708247D78688D0C85 /* libLinearMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libLinearMath.a";
+			remoteRef = 7D3078CA4F6A61A53A5D5DCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08E446E10C99360F14A23A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C0800C607EC26FB5D47662A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD6675238C660EF24306B91 /* ConcaveRaycastDemo.cpp in Sources */,
+				1B9C442154FF33FE0753673E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		390D3C6C0BE526DE3AD31373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libOpenGLSupport.a";
+			targetProxy = 7308405F4469587E6AF732D2 /* PBXContainerItemProxy */;
+		};
+		7E456F1010B64E6F5C8B2F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBulletDynamics.a";
+			targetProxy = 0B2B4902581627BF09467A2A /* PBXContainerItemProxy */;
+		};
+		366355225F2452EF61E64DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBulletCollision.a";
+			targetProxy = 5E2573034F2E6E3835646AAB /* PBXContainerItemProxy */;
+		};
+		31144DB80654183F5B0E1F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libLinearMath.a";
+			targetProxy = 339070F1755D348660760B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		333C43D905216A1A70F62F83 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ConcaveRaycastDemo_xcode4";
+			};
+			name = "Release Native 32-bit";
+		};
+		34CF2793329B658A75B817BF /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ConcaveRaycastDemo_xcode4_x64_release";
+			};
+			name = "Release Native 64-bit";
+		};
+		33A47CEE78370AA574AA7697 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ConcaveRaycastDemo_xcode4_debug";
+			};
+			name = "Debug Native 32-bit";
+		};
+		3DC376906CFF000561A53C27 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ConcaveRaycastDemo_xcode4_x64_debug";
+			};
+			name = "Debug Native 64-bit";
+		};
+		5EB6258E47433AD8567074B5 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "i386";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x32/Release/App_ConcaveRaycastDemo";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Release Native 32-bit";
+		};
+		1AA756B65CB71A252F3953BF /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x64/Release/App_ConcaveRaycastDemo";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Release Native 64-bit";
+		};
+		4DD77A31422F33E5228B0DDF /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "i386";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x32/Debug/App_ConcaveRaycastDemo";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Debug Native 32-bit";
+		};
+		653A55B43EBD7C69585F6942 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x64/Debug/App_ConcaveRaycastDemo";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Debug Native 64-bit";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD718546D9B0A764AC17585 /* Build configuration list for PBXNativeTarget "App_ConcaveRaycastDemo_xcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333C43D905216A1A70F62F83 /* Release Native 32-bit */,
+				34CF2793329B658A75B817BF /* Release Native 64-bit */,
+				33A47CEE78370AA574AA7697 /* Debug Native 32-bit */,
+				3DC376906CFF000561A53C27 /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_ConcaveRaycastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB6258E47433AD8567074B5 /* Release Native 32-bit */,
+				1AA756B65CB71A252F3953BF /* Release Native 64-bit */,
+				4DD77A31422F33E5228B0DDF /* Debug Native 32-bit */,
+				653A55B43EBD7C69585F6942 /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

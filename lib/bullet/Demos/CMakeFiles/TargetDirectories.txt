@@ -1,0 +1,1 @@
+/Users/ngrebenshikov/pyramid/lib/bullet/Demos/HelloWorld/CMakeFiles/AppHelloWorld.dir

@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307F78F2048F54B200CA0D88 /* ContinuousConvexCollisionDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E033EAF7F2D02C42B1C69DD /* ContinuousConvexCollisionDemo.cpp */; };
+		38FA4F515C8A151A18956E45 /* libOpenGLSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4C044556C817B268B22460 /* libOpenGLSupport.a */; };
+		06347ADD666A3EA4394F149E /* libBulletDynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B9027B62AC3F1F26CF6B4C /* libBulletDynamics.a */; };
+		178F32D1549138AA2C3978C5 /* libBulletCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACC275A0E3C37386B8107EF /* libBulletCollision.a */; };
+		21DD40551937724B2B867184 /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410139BE1A9A08A1128365B0 /* libLinearMath.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D83BBB7F0077691AB91AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3967323B4C403520541C2813 /* OpenGLSupport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6D0255371EC2105C2B004C20;
+			remoteInfo = "libOpenGLSupport_xcode4.a";
+		};
+		748618FD309D3907273C6FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3967323B4C403520541C2813 /* OpenGLSupport.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D186EDA524952A160AB061C;
+			remoteInfo = "libOpenGLSupport_xcode4.a";
+		};
+		1C4B1A981B6F327407847884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8C5CDC15032BCD35684F39 /* BulletDynamics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16581A1242FD309F35AD0380;
+			remoteInfo = "libBulletDynamics_xcode4.a";
+		};
+		2BA4369E7DC93419731C5C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8C5CDC15032BCD35684F39 /* BulletDynamics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F76EAE706D3C360B491499;
+			remoteInfo = "libBulletDynamics_xcode4.a";
+		};
+		622C37DD3B1051C15C9D03ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D721B9C5C1A3F56660901BB /* BulletCollision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DCA1EC1126F41427DDD491A;
+			remoteInfo = "libBulletCollision_xcode4.a";
+		};
+		3EEE0AED7422062232327E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D721B9C5C1A3F56660901BB /* BulletCollision.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 72554C74797C5F5762DC7369;
+			remoteInfo = "libBulletCollision_xcode4.a";
+		};
+		5169710E4E39145D12DD0BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AC21DAC26365BF20F90786F /* LinearMath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C8F4A0F26DF0ACF322E1915;
+			remoteInfo = "libLinearMath_xcode4.a";
+		};
+		20D1321A4B15032906F4328B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AC21DAC26365BF20F90786F /* LinearMath.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB56A1131631A0B79263363;
+			remoteInfo = "libLinearMath_xcode4.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E3D36EB37CE6F135DB40787 /* ContinuousConvexCollision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ContinuousConvexCollision.h"; path = "../../Demos/ContinuousConvexCollision/ContinuousConvexCollision.h"; sourceTree = "<group>"; };
+		3E033EAF7F2D02C42B1C69DD /* ContinuousConvexCollisionDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "ContinuousConvexCollisionDemo.cpp"; path = "../../Demos/ContinuousConvexCollision/ContinuousConvexCollisionDemo.cpp"; sourceTree = "<group>"; };
+		39DC1CC40F4112AA790A10BB /* App_ContinuousConvexCollision_xcode4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "App_ContinuousConvexCollision_xcode4"; path = "App_ContinuousConvexCollision_xcode4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3967323B4C403520541C2813 /* OpenGLSupport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "OpenGLSupport.xcodeproj"; path = "OpenGLSupport.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		2C8C5CDC15032BCD35684F39 /* BulletDynamics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletDynamics.xcodeproj"; path = "BulletDynamics.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		4D721B9C5C1A3F56660901BB /* BulletCollision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletCollision.xcodeproj"; path = "BulletCollision.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		5AC21DAC26365BF20F90786F /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CFD6B3447DA64E232BE03F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FA4F515C8A151A18956E45 /* libOpenGLSupport.a in Frameworks */,
+				06347ADD666A3EA4394F149E /* libBulletDynamics.a in Frameworks */,
+				178F32D1549138AA2C3978C5 /* libBulletCollision.a in Frameworks */,
+				21DD40551937724B2B867184 /* libLinearMath.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C6697B369B202C3E351131 /* App_ContinuousConvexCollision */ = {
+			isa = PBXGroup;
+			children = (
+				570E17170C5138307CAF4EC7 /* Demos */,
+				114346112E7115D84A365C54 /* Products */,
+				13CA392E102C7A3003934743 /* Projects */,
+			);
+			name = "App_ContinuousConvexCollision";
+			sourceTree = "<group>";
+		};
+		570E17170C5138307CAF4EC7 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				78C70A5F672D74AD0B111BF2 /* ContinuousConvexCollision */,
+			);
+			name = "Demos";
+			sourceTree = "<group>";
+		};
+		78C70A5F672D74AD0B111BF2 /* ContinuousConvexCollision */ = {
+			isa = PBXGroup;
+			children = (
+				3E3D36EB37CE6F135DB40787 /* ContinuousConvexCollision.h */,
+				3E033EAF7F2D02C42B1C69DD /* ContinuousConvexCollisionDemo.cpp */,
+			);
+			name = "ContinuousConvexCollision";
+			sourceTree = "<group>";
+		};
+		114346112E7115D84A365C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DC1CC40F4112AA790A10BB /* App_ContinuousConvexCollision_xcode4 */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		13CA392E102C7A3003934743 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				3967323B4C403520541C2813 /* OpenGLSupport.xcodeproj */,
+				2C8C5CDC15032BCD35684F39 /* BulletDynamics.xcodeproj */,
+				4D721B9C5C1A3F56660901BB /* BulletCollision.xcodeproj */,
+				5AC21DAC26365BF20F90786F /* LinearMath.xcodeproj */,
+			);
+			name = "Projects";
+			sourceTree = "<group>";
+		};
+		31C0562E15A23FDD732B1029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C4C044556C817B268B22460 /* libOpenGLSupport.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466472CE47CD14463C8C2029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62B9027B62AC3F1F26CF6B4C /* libBulletDynamics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A54EC372BC14E707002577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC275A0E3C37386B8107EF /* libBulletCollision.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B455520DBC3B61005B5ECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410139BE1A9A08A1128365B0 /* libLinearMath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CAE311C29050972363E3D0F /* App_ContinuousConvexCollision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17354BB22F685FF640084F04 /* Build configuration list for PBXNativeTarget "App_ContinuousConvexCollision" */;
+			buildPhases = (
+				3EE95FC25CD74AF8045C38C1 /* Resources */,
+				1A4267AE78EF3FD433817E8B /* Sources */,
+				6CFD6B3447DA64E232BE03F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E83641A209941E35EAD449B /* PBXTargetDependency */,
+				3D9F3BB259170D851F715203 /* PBXTargetDependency */,
+				5E8B0F5F5F811BFF1C16241A /* PBXTargetDependency */,
+				5D9C6C0C12525A8912B66EEA /* PBXTargetDependency */,
+			);
+			name = "App_ContinuousConvexCollision";
+			productInstallPath = "$(HOME)/bin";
+			productName = "App_ContinuousConvexCollision";
+			productReference = 39DC1CC40F4112AA790A10BB /* App_ContinuousConvexCollision_xcode4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_ContinuousConvexCollision" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 45C6697B369B202C3E351131 /* App_ContinuousConvexCollision */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 31C0562E15A23FDD732B1029 /* Products */;
+					ProjectRef = 3967323B4C403520541C2813 /* OpenGLSupport.xcodeproj */;
+				},
+				{
+					ProductGroup = 466472CE47CD14463C8C2029 /* Products */;
+					ProjectRef = 2C8C5CDC15032BCD35684F39 /* BulletDynamics.xcodeproj */;
+				},
+				{
+					ProductGroup = 65A54EC372BC14E707002577 /* Products */;
+					ProjectRef = 4D721B9C5C1A3F56660901BB /* BulletCollision.xcodeproj */;
+				},
+				{
+					ProductGroup = 28B455520DBC3B61005B5ECE /* Products */;
+					ProjectRef = 5AC21DAC26365BF20F90786F /* LinearMath.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7CAE311C29050972363E3D0F /* App_ContinuousConvexCollision_xcode4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0C4C044556C817B268B22460 /* libOpenGLSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libOpenGLSupport.a";
+			remoteRef = 33D83BBB7F0077691AB91AD2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62B9027B62AC3F1F26CF6B4C /* libBulletDynamics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libBulletDynamics.a";
+			remoteRef = 1C4B1A981B6F327407847884 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3ACC275A0E3C37386B8107EF /* libBulletCollision.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libBulletCollision.a";
+			remoteRef = 622C37DD3B1051C15C9D03ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		410139BE1A9A08A1128365B0 /* libLinearMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../lib/libLinearMath.a";
+			remoteRef = 5169710E4E39145D12DD0BCC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE95FC25CD74AF8045C38C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A4267AE78EF3FD433817E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307F78F2048F54B200CA0D88 /* ContinuousConvexCollisionDemo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		6E83641A209941E35EAD449B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libOpenGLSupport.a";
+			targetProxy = 748618FD309D3907273C6FA5 /* PBXContainerItemProxy */;
+		};
+		3D9F3BB259170D851F715203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBulletDynamics.a";
+			targetProxy = 2BA4369E7DC93419731C5C49 /* PBXContainerItemProxy */;
+		};
+		5E8B0F5F5F811BFF1C16241A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBulletCollision.a";
+			targetProxy = 3EEE0AED7422062232327E29 /* PBXContainerItemProxy */;
+		};
+		5D9C6C0C12525A8912B66EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libLinearMath.a";
+			targetProxy = 20D1321A4B15032906F4328B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24B052D348C239F859D13081 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ContinuousConvexCollision_xcode4";
+			};
+			name = "Release Native 32-bit";
+		};
+		13033FB87B7153E71C3449FA /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ContinuousConvexCollision_xcode4_x64_release";
+			};
+			name = "Release Native 64-bit";
+		};
+		7967723C68DB091217001F24 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ContinuousConvexCollision_xcode4_debug";
+			};
+			name = "Debug Native 32-bit";
+		};
+		66A5185174E17ABD4D7D06C3 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../..";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_ContinuousConvexCollision_xcode4_x64_debug";
+			};
+			name = "Debug Native 64-bit";
+		};
+		77C9697F314D39C47B2B6F83 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "i386";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x32/Release/App_ContinuousConvexCollision";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Release Native 32-bit";
+		};
+		7A3D411D06C84618675114BC /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x64/Release/App_ContinuousConvexCollision";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Release Native 64-bit";
+		};
+		2672256334B435EC3AB8325C /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "i386";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x32/Debug/App_ContinuousConvexCollision";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Debug Native 32-bit";
+		};
+		71F86AC9441211B658E52DDD /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../Demos/OpenGL",
+				);
+				OBJROOT = "obj/x64/Debug/App_ContinuousConvexCollision";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-framework Carbon -framework OpenGL -framework AGL -framework Glut",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../..";
+			};
+			name = "Debug Native 64-bit";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17354BB22F685FF640084F04 /* Build configuration list for PBXNativeTarget "App_ContinuousConvexCollision_xcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B052D348C239F859D13081 /* Release Native 32-bit */,
+				13033FB87B7153E71C3449FA /* Release Native 64-bit */,
+				7967723C68DB091217001F24 /* Debug Native 32-bit */,
+				66A5185174E17ABD4D7D06C3 /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_ContinuousConvexCollision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C9697F314D39C47B2B6F83 /* Release Native 32-bit */,
+				7A3D411D06C84618675114BC /* Release Native 64-bit */,
+				2672256334B435EC3AB8325C /* Debug Native 32-bit */,
+				71F86AC9441211B658E52DDD /* Debug Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Native 32-bit";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
